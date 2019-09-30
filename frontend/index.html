@@ -1,0 +1,124 @@
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>OptimusJ9 Demo</title>
+        <link href="optimusj9.png" rel="shortcut icon" type="image/png"/>
+        <link href="style/editor.css" rel="stylesheet" type="text/css"/>
+        <link href="style/linegraph.css" rel="stylesheet" type="text/css"/>
+        <link href="libraries/c3-0.7.1/c3.css" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" type="text/css" href="semantic/dist/semantic.min.css">
+    </head>
+
+    <body class="body">
+          <div class="ui three column divided grid full-layout">
+              <div class="stretched row full-layout">
+                <div class="four wide column">
+                    <div class="ui styled fluid accordion">
+                        <div class="title" id="Sample"> 
+                          Sample
+                        </div>
+                        <div class="title" id="BinarySearch"> 
+                          BinarySearch
+                        </div>
+                        <div class="title" id="Fibonacci"> 
+                          Fibonacci
+                        </div>
+                        <div class="title" id="HelloWorld"> 
+                          HelloWorld
+                        </div>
+                        <div class="title" id="InsertionSort"> 
+                          InsertionSort
+                        </div>
+                        <div class="title" id="PrimeNumbers"> 
+                          PrimeNumbers
+                        </div>
+                        <div class="title" id="PrintDiamond"> 
+                          PrintDiamond
+                        </div>
+                        <div class="title" id="Summation"> 
+                          Summation
+                        </div>
+                      </div>
+                          <div class="ui two column divided grid">
+                              <div class="row">
+                                <div class="column">
+                                    <img src="brady.jpg">
+                                </div>
+                                <div class="column">
+                                    <img src="vino.jpg">
+                                </div>
+                                
+                              </div>
+                              <div class="row">
+                                  <div class="column">
+                                      <img src="ben.jpg">
+                                  </div>
+                                  <div class="column">
+                                      <img src="kev.jpg">
+                                  </div>
+                                  
+                              </div>
+                          </div>
+                </div>
+                <div class="six wide column">
+                  <div class="ui segment code-editor" id="editor">class Sample {
+    public static void main(String args[]) {
+        //Enter your code here
+    }
+}</div>
+                  <div class="ui three column grid">
+                      <div class="buttons-row stretched row full-layout">
+                        <div class="six wide column">
+                            <img class="bottom-logo" src="banner.png"/>
+                        </div>
+                        <div class="five wide column">
+                          <button class="ui secondary button" id="showGraph">
+                              Graph
+                            </button>
+                        </div>
+                        <div class="five wide column">
+                            <button class="ui secondary button" id="runJavaProgram">
+                                Run
+                            </button>
+                        </div>
+                      </div>
+                  </div>
+                </div>
+                <div class="six wide column">
+                  <div class="console ui segment" id="console">
+                    Console
+                  </div>
+                </div>
+              </div>
+              <div class="modal-dimensions ui modal" id="graph">
+                  <div class="width">
+                    <canvas class="canvas-dimensions" id="canvas"></canvas>
+                  </div>
+                  <div class="width">
+                    <canvas class="canvas-dimensions" id="canvas"></canvas>
+                  </div>
+              </div>
+        
+        
+
+        <footer>
+            <script src="libraries/c3-0.7.1/c3.min.js"></script>
+            <script src="https://d3js.org/d3.v5.min.js"></script>
+            <script src="libraries/ace/ace.js" type="text/javascript" charset="utf-8"></script>
+            <script src="libraries/ace/mode-java.js" type="text/javascript" charset="utf-8"></script>
+            <script src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js"></script>
+            <script src="semantic/dist/semantic.min.js"></script>
+            <script src="js/script.js"></script>
+            <script src="js/api.js"></script>
+            <script src= "https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.bundle.min.js"></script>
+            <script src="js/util.js"></script>
+            <script src="js/linegraph.js"></script>
+        </footer>
+
+    </body>
+
+</html>
+
+        
+        
+        

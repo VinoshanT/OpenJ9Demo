@@ -1,0 +1,81 @@
+.code-editor {
+    height: 98%;
+}
+
+.body {
+    overflow: hidden !important;
+}
+
+.buttons-row {
+    padding-top: 0.5rem !important;
+}
+
+.bottom-logo {
+    max-height: 100%;
+}
+
+.people-image {
+    margin-right: 0 !important;
+    align-self: center;
+}
+
+.modal-dimensions {
+    width: 1000px;
+    height: 500px;
+}
+
+.canvas-dimensions {
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.console {
+    background: #1b1c1d !important;
+    font-family: courier !important;
+    color: rgb(0,255,65) !important;
+    overflow: auto;
+    height: 100vh !important;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.full-layout {
+    height: 100%;
+}
+
+.execution-layout {
+    height: 60%;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.column {
+    display: flex;
+    flex-direction: column
+}
+
+.box{
+    width: 400px;
+}
+
+.box-editor{
+    width: 800px;
+}
+
+.pad-left{
+    padding-left: 30px;
+}
